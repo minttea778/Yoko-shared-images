@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoko的图片分享</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Yoko的图片分享</h1>
+    <p class="subtitle">一些想分享的瞬间</p>
+  </header>
+
+  <main class="gallery" id="gallery">
+    <p class="loading">加载中…</p>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lb-close" id="lbClose" aria-label="关闭">×</button>
+    <button class="lb-prev" id="lbPrev" aria-label="上一张">‹</button>
+    <figure class="lb-figure">
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+    <button class="lb-next" id="lbNext" aria-label="下一张">›</button>
+  </div>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Yoko的图片分享</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
