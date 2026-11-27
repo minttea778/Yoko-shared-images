@@ -1,0 +1,7 @@
+name = "gaogao1116"
+main = "src/index.js"
+compatibility_date = "2026-11-27"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
