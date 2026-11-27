@@ -6,7 +6,7 @@ export default {
       return new Response('需要密码才能访问', {
         status: 401,
         headers: {
-          'WWW-Authenticate': 'Basic realm="gaogao1116", charset="UTF-8"',
+          'WWW-Authenticate': 'Basic realm="Yokospace", charset="UTF-8"',
         },
       });
     }
